@@ -1,0 +1,13 @@
+h2 {
+    text-align: center;
+}
+
+form{
+    max-width: 800px;
+    margin: 0 auto;
+
+    .botoes{ /* centralizar a div de botoes*/
+        display: flex;
+        justify-content: space-between;
+    }
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/nes.css@latest/css/nes.min.css" rel="stylesheet" /> <!--link de estilo-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- link da fonte -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!-- link da fonte -->
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"> <!-- link da fonte -->
+
+    <link rel="stylesheet" href="./css/layout.css">
+    <link rel="stylesheet" href="./css/form.css">
+    <script src="./js/cadastra.js" defer></script>
+    
+    <title>Epictask - Nova tarefa</title>
+    
+</head>
+
+<body>
+    <h2>Cadastro</h2>
+
+    <form action="">
+        <div class="nes-field">
+            
+            <label for="titulo">Titulo aleatorio</label>
+            <input type="text" id="titulo" class="nes-input">
+            <span id="titulo-erro" class="nes-text is-error"></span>
+          </div>
+
+          <div>
+            <label for="descricao">Descriçao aleatoria</label>
+            <textarea id="descricao" class="nes-textarea"></textarea>
+            <span id="descricao-erro" class="nes-text is-error"></span>
+        </div>
+
+        <div class="nes-field">
+            <label for="pontos">Titulo aleatorio</label>
+            <input type="number" id="pontos" class="nes-input">
+          </div>
+
+          <div>
+          <label for="">Prioritario</label>
+          <label>
+            <input type="radio" class="nes-radio" name="answer" checked />
+            <span>Yes</span>
+          </label>
+          
+          <label>
+            <input type="radio" class="nes-radio" name="answer" />
+            <span>No</span>
+          </label>
+        </div>
+
+        <div class="botoes">
+            <a class="nes-btn" href="/">Cancelar</a>
+            <button id="botao-cadastrar" type="button" class="nes-btn is-primary">Cadastra</button>
+        </div>
+
+    </form>
+    
+</body>

@@ -1,0 +1,22 @@
+body{
+    padding: 2rem;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+
+
+/* mobile firt */
+
+#lista-de-tarefas { /* deixar as div em grade */
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+    gap: 1rem;
+
+}
+
+
+
